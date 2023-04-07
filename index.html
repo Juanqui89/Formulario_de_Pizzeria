@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de PizzaToGo</title>
+</head>
+<body>
+    <img src="../Imagenes/Imagen de pizza.png" alt="Imagen del logo de PizzaToGo">
+    <h1>PizzaToGo</h1>
+    <form method="POST" action="https://webhook.site/b66e41b6-d6db-4b59-8a6a-852dad84ce44">
+        <fieldset>
+          <legend>Información personal</legend>
+      
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre">
+      
+      <label for="celular">Celular:</label>
+      <input type="tel" id="celular" name="celular">
+      <br>
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido">
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+          <br>
+          
+      
+          <label for="ciudad">Ciudad:</label>
+          <input type="text" id="ciudad" name="ciudad">
+          <br>
+          <label for="codigo-postal">Código postal:</label>
+          <input type="text" id="codigo-postal" name="codigo-postal"><br>
+        </fieldset>
+
+        <br>
+        <br>
+    
+        <fieldset>
+          <legend>Escoge tu Pizza</legend>
+          <input type="radio" id="tam-pequeno" name="tamaño" value="pequeno">
+          <label for="tam-pequeno">Pequeño</label><br>
+          <input type="radio" id="tam-mediano" name="tamaño" value="mediano">
+          <label for="tam-mediano">Mediano</label><br>
+          <input type="radio" id="tam-grande" name="tamaño" value="grande">
+          <label for="tam-grande">Grande</label><br>
+          <input type="radio" id="sportman" name="tamaño" value="sportman">
+          <label for="sportman">Sportman</label><br><br>
+          
+          <label for="tipo-pizza">Especialidades:</label><br><br>
+          <input type="radio" id="peperoni" name="tipo-pizza" value="peperoni">
+          <label for="peperoni">Peperoni</label><br>
+
+          <input type="radio" id="jamon" name="tipo-pizza" value="jamon">
+          <label for="jamon">Jamon</label><br>
+
+          <input type="radio" id="bacon" name="tipo-pizza" value="bacon">
+          <label for="bacon">Bacon</label><br>
+
+          <input type="radio" id="queso" name="tipo-pizza" value="queso">
+          <label for="queso">Queso</label><br>
+
+          <input type="radio" id="meat-lover" name="tipo-pizza" value="meat-lover">
+          <label for="meat-lover">Meat Lover</label><br>
+
+          <input type="radio" id="pina" name="tipo-pizza" value="pina">
+          <label for="pina">Piña</label>
+          </br><br>
+          <label for="Aperitivos:">Aperitivos:</label><br><br>
+          <input type="radio" id="alitas-bbq" name="Aperitivos" value="Alitas de pollo, salsa BBQ">
+          <label for="alitas-bbq">Alitas de pollo con salsa BBQ</label>
+          <br>
+          <input type="radio" id="picadera-queso-salami" name="Aperitivos" value="Queso, salami, galletas saladas">
+          <label for="picadera-queso-salami">Picadera de queso y salami</label>
+          <br>
+
+          <input type="radio" id="pan-ajo" name="Aperitivos" value="Pan, ajo, mantequilla, queso parmesano">
+          <label for="pan-ajo">Pan con ajo</label>
+          <br>
+          <input type="radio" id="dips-nachos" name="Aperitivos" value="Salsa de queso, salsa de guacamole, salsa de frijoles, nachos">
+          <label for="dips-nachos">Dips variados con nachos</label>
+                    
+        </fieldset>
+        <br>
+         <input type="submit" value="Enviar">
+      </form>
+</body>
+</html>
