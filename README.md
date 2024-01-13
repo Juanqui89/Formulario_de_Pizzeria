@@ -1,0 +1,9 @@
+Me complace presentar el proyecto "Formulario de Pizzería" desarrollado durante mi participación en el bootcamp de Dojopy, donde se exploró la creación de un formulario interactivo utilizando HTML y CSS. Este proyecto fue concebido con el propósito de proporcionar una solución efectiva y atractiva para la recepción de pedidos en una pizzería, destacando la simplicidad y la estética en el diseño.
+
+La estructura del formulario se construyó utilizando HTML como la base fundamental, permitiendo la organización lógica de los campos necesarios para la personalización de pedidos. Elementos como opciones de ingredientes, tamaño de la pizza y datos de contacto del cliente se incorporaron de manera intuitiva en el formulario.
+
+La presentación visual del proyecto se logró mediante CSS, incorporando un diseño atractivo y responsive. La interfaz de usuario se diseñó cuidadosamente para proporcionar una experiencia de pedido agradable y fácil de seguir. Se prestaron especial atención a detalles como colores, tipografía y distribución, buscando una estética pulida y coherente con el tema de una pizzería.
+
+Aunque el proyecto se centró en la interfaz del formulario, se implementaron prácticas recomendadas de usabilidad y validación de datos para mejorar la experiencia del usuario. Además, se procuró que el diseño fuera acogedor y reflejara la identidad visual asociada a una pizzería.
+
+En resumen, este proyecto "Formulario de Pizzería" es el resultado de aplicar los conocimientos adquiridos en el bootcamp de Dojopy, demostrando la habilidad para crear formularios interactivos y visualmente atractivos mediante HTML y CSS. Este enfoque en la estética y la funcionalidad refleja el compromiso con las mejores prácticas de diseño web, proporcionando una solución de pedido online efectiva y estilizada para una pizzería imaginaria.
